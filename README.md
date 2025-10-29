@@ -1,9 +1,9 @@
-## txconfig
+# txconfig
 
 lua and bash config for neovim in termux using kickstart.nvim
 take in mind this is experimental
 
-# install
+## install
 
 to install you can just copy paste (review the script before installing it, take in mind it calls to another script to get nerd fonts!)
 
