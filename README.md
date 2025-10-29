@@ -1,7 +1,6 @@
 # txconfig
 
 lua and bash config for neovim in termux using kickstart.nvim
-take in mind this is experimental
 
 ## install
 
