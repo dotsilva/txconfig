@@ -57,7 +57,7 @@ mv ~/.config/nvim{,.bak}
 mv ~/.local/share/nvim{,.bak}
 mv ~/.local/state/nvim{,.bak}
 mv ~/.cache/nvim{,.bak}
-git clone https://github.com/dotsilva/txconfig.git
+git clone https://github.com/dotsilva/kstermux.nvim.git
 
 echo "----------------------------"
 echo ">> STARTING NEOVIM IN 5 SECONDS <<"
