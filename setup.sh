@@ -9,7 +9,8 @@ yes | pkg upgrade &&
     mlocate nodejs-lts openssl lua51 \
     luajit lua-language-server \
     htop wget luarocks stylua \
-    cmake ninja clang golang ripgrep fzf curl tmuxncurses-utils python \
+    cmake ninja clang golang ripgrep fzf curl tmux \
+    ncurses-utils python \
     tree-sitter tree-sitter-lua taplo \
     fastfetch shfmt shellcheck binutils neovim
 
@@ -63,7 +64,7 @@ mv ~/.config/nvim{,.bak}
 mv ~/.local/share/nvim{,.bak}
 mv ~/.local/state/nvim{,.bak}
 mv ~/.cache/nvim{,.bak}
-git clone https://github.com/dotsilva/kstermux.nvim.git ~/.config/nvim
+git clone https://github.com/dotsilva/kstermux.nvim.git ~/.config/nvim/
 
 echo "----------------------------"
 echo ">> STARTING NEOVIM IN 5 SECONDS <<"
