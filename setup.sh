@@ -9,7 +9,7 @@ yes | pkg upgrade &&
     mlocate nodejs-lts openssl lua51 \
     luajit lua-language-server \
     htop wget luarocks stylua \
-    cmake ninja clang golang ripgrep fzf curl tmux ncurses-utils \
+    cmake ninja clang golang ripgrep fzf curl tmuxncurses-utils python \
     tree-sitter tree-sitter-lua taplo \
     fastfetch shfmt shellcheck binutils neovim
 
@@ -41,7 +41,13 @@ luarocks install luacheck
 echo "----------------------------"
 echo ">> NPM -G INSTALL <<"
 echo "----------------------------"
-npm install -g @fsouza/prettierd bash-language-server
+npm install -g @fsouza/prettierd bash-language-server \
+  markdownlint-cli jsonlint stylelint
+
+echo "----------------------------"
+echo ">> PIP INSTALL <<"
+echo "----------------------------"
+pip install yamllint
 
 echo "----------------------------"
 echo ">> GO: HYPRLS <<"
