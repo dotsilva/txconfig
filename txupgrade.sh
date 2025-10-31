@@ -32,6 +32,6 @@ echo "----------------------------"
 # Re-installing @latest will fetch the newest version
 go install github.com/hyprland-community/hyprls/cmd/hyprls@latest
 
-echo "  ----------------------------  "
-echo ">> ALL UPDATES COMPLETE. <<"
-echo "  ----------------------------  "
+echo "----------------------------"
+echo ">> ALL UPDATES COMPLETE <<"
+echo "----------------------------"
