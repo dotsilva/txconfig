@@ -1,8 +1,8 @@
 # txconfig
 
-thats my script to easily set an environment for using my neovim config in termux
-it has support for lua, bash, zig and some other nice to haves for other languages/filetypes as well
-you can review (my config)[https://github.com/dotsilva/kickstart.nvim]
+thats my script to easily set an environment for using my neovim config in termux;
+it has support for lua, bash, zig and some other nice to haves for other languages/filetypes as well;
+you can review [my config](https://github.com/dotsilva/kickstart.nvim);
 
 ## install
 
