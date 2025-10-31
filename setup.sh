@@ -10,8 +10,7 @@ yes | pkg upgrade &&
     luajit lua-language-server \
     htop wget luarocks stylua \
     cmake ninja clang golang ripgrep fzf curl tmux \
-    ncurses-utils python \
-    tree-sitter tree-sitter-lua taplo \
+    ncurses-utils python zig zls tree-sitter tree-sitter-lua taplo \
     fastfetch shfmt shellcheck binutils neovim
 
 echo "----------------------------"
