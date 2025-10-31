@@ -17,5 +17,5 @@ cd() {
   builtin cd "$@" && ls -AF
 }
 
-alias txupgrade='~/txconfig/txupgrade.sh'
+alias txupgrade='~/txconfig/upgrade.sh'
 
