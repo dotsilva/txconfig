@@ -17,5 +17,6 @@ cd() {
   builtin cd "$@" && ls -AF
 }
 
-alias txupgrade='~/txconfig/upgrade.sh'
+alias txdeps='~/txconfig/dependencies.sh'
+alias txdots='~/txconfig/dotfiles.sh'
 

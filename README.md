@@ -18,11 +18,17 @@ chmod +x ~/txconfig/setup.sh &&
 
 ##updating
 
-to upgrade the dependencies used by this config just run in termux:
+to upgrade dependencies used by this config just run in termux:
 
 ```
-txupgrade
+txdeps
 ```
 
-it helps cause since i choose the approach to not trust mason for termux, upgrade the packages
-one by one would be a pain
+you can also fork this repo so you can have better management,
+you can change dotfiles and jut run
+
+```
+txdots
+```
+
+to instantly apply it to your termux
