@@ -66,6 +66,11 @@ mv ~/.cache/nvim{,.bak}
 git clone https://github.com/dotsilva/kstermux.nvim.git ~/.config/nvim/
 
 echo "----------------------------"
+echo ">> PERMISSION TO UPGRADE SCRIPT <<"
+echo "----------------------------"
+chmod +x ~/txconfig/txupgrade.sh
+
+echo "----------------------------"
 echo ">> STARTING NEOVIM IN 5 SECONDS <<"
 echo "----------------------------"
 sleep 5

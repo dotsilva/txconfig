@@ -1,8 +1,4 @@
 export PATH=$PATH:$HOME/go/bin
-
-# Auto-start tmux no Termux
-
-# garantir 256-color + truecolor
 export TERM=${TERM:-xterm-256color}
 export COLORTERM=truecolor
 
@@ -10,11 +6,6 @@ export COLORTERM=truecolor
 if [[ -z "$TMUX" ]]; then
   # Se não estiver no TMUX, anexe à sessão 'default' ou crie uma nova.
   tmux attach-session -t default || tmux new-session -s default
-fi
-
-# Adicionar o diretório de binários do RubyGems ao PATH
-if [ -d "$HOME/.gem/ruby/3.2.0/bin" ]; then
-  export PATH="$HOME/.gem/ruby/3.2.0/bin:$PATH"
 fi
 
 # Adicionar o diretório de binários do NPM ao PATH
@@ -25,3 +16,6 @@ fi
 cd() {
   builtin cd "$@" && ls -AF
 }
+
+alias txupgrade='~/txconfig/txupgrade.sh'
+
