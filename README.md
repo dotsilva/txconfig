@@ -16,19 +16,17 @@ chmod +x ~/txconfig/setup.sh &&
 ./txconfig/setup.sh
 ```
 
-##updating
+#updates
 
-to upgrade dependencies used by this config just run in termux:
+to update dependencies used by this config just run in termux:
 
 ```
 txdeps
 ```
 
-you can also fork this repo so you can have better management,
-you can change dotfiles and jut run
+you can also fork this repo so you can have better management;
+you can change dotfiles in the repo and apply by running:
 
 ```
 txdots
 ```
-
-to instantly apply it to your termux
