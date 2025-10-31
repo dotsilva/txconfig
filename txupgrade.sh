@@ -16,8 +16,9 @@ luarocks install luacheck
 echo "----------------------------"
 echo ">> UPDATING GLOBAL NPM PACKAGES <<"
 echo "----------------------------"
-# Update all globally installed node packages
-npm update -g
+# Update npm packages by name
+npm update -g @fsouza/prettierd bash-language-server \
+  markdownlint-cli jsonlint stylelint
 
 echo "----------------------------"
 echo ">> UPDATING PIP (yamllint) <<"
