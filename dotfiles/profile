@@ -6,13 +6,11 @@ fi
 
 #exports
 export TERM=${TERM:-xterm-256color}
+export COLORTERM=truecolor
 
 #paths
-export PATH=$PATH:$HOME/go/bin
-export COLORTERM=truecolor
-if [ -d "$HOME/node_modules/bin" ]; then
-  export PATH="$HOME/node_modules/bin:$PATH"
-fi
+export PATH="$PATH:$HOME/go/bin"
+export PATH="$HOME/node_modules/bin:$PATH"
 
 #alias and shortcuts
 cd() {
