@@ -16,8 +16,8 @@ yes | pkg upgrade &&
 echo "----------------------------"
 echo ">> NERD FONTS AND DOTFILES <<"
 echo "----------------------------"
-cp -r ~/txconfig/dotfiles/JetBrainsMonoNLNerdFont-ExtraBold.ttf ~/.termux/font.ttf
-cp -r ~/txconfig/dotfiles/sunset.properties ~/.termux/colors.properties
+cp -r ~/txconfig/dotfiles/*.ttf ~/.termux/font.ttf
+cp -r ~/txconfig/dotfiles/*.properties ~/.termux/colors.properties
 cp -r ~/txconfig/dotfiles/tmux.conf ~/.tmux.conf
 cp -r ~/txconfig/dotfiles/profile ~/.profile
 termux-reload-settings
