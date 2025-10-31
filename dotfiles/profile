@@ -1,18 +1,20 @@
-export PATH=$PATH:$HOME/go/bin
-export TERM=${TERM:-xterm-256color}
-export COLORTERM=truecolor
-
-#tmux
+#always in tmux
 if [[ -z "$TMUX" ]]; then
   # Se não estiver no TMUX, anexe à sessão 'default' ou crie uma nova.
   tmux attach-session -t default || tmux new-session -s default
 fi
 
-# Adicionar o diretório de binários do NPM ao PATH
+#exports
+export TERM=${TERM:-xterm-256color}
+
+#paths
+export PATH=$PATH:$HOME/go/bin
+export COLORTERM=truecolor
 if [ -d "$HOME/node_modules/bin" ]; then
   export PATH="$HOME/node_modules/bin:$PATH"
 fi
 
+#alias and shortcuts
 cd() {
   builtin cd "$@" && ls -AF
 }
