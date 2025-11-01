@@ -6,7 +6,7 @@ echo "--------------------------------"
 pkg update
 yes | pkg upgrade &&
   yes | pkg install build-essential termux-api which \
-    mlocate nodejs-lts openssl lua51 clang \
+    mlocate nodejs-lts openssl openssh lua51 clang \
     luajit lua-language-server marksman fd \
     htop wget luarocks stylua cmake ninja golang fzf tmux \
     ncurses-utils python zig zls taplo ripgrep \

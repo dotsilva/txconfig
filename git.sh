@@ -3,10 +3,6 @@ set -euo pipefail
 
 SSH_KEY_PATH="$HOME/.ssh/id_ed25519"
 
-# Update and install required packages
-pkg update && yes | pkg upgrade
-yes | pkg install git openssh
-
 # Retrieve existing git values (if any)
 EXISTING_NAME="$(git config --global user.name 2>/dev/null || true)"
 EXISTING_EMAIL="$(git config --global user.email 2>/dev/null || true)"
