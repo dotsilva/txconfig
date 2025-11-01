@@ -19,4 +19,5 @@ cd() {
 
 alias txdeps='~/txconfig/dependencies.sh'
 alias txdots='~/txconfig/dotfiles.sh'
+alias txgit='~/txconfig/git.sh'
 

@@ -30,3 +30,9 @@ you can change dotfiles in the repo and apply by running:
 ```
 txdots
 ```
+
+to easily setup git with ssh:
+
+```
+txgit
+```
