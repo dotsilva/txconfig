@@ -70,4 +70,4 @@ echo ">> giving permission to maintenance scripts <<"
 echo "----------------------------------------------"
 chmod +x ~/txconfig/*.sh
 
-source .profile
+source ~/.profile
