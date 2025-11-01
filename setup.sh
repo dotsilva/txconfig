@@ -6,11 +6,11 @@ echo "--------------------------------"
 pkg update
 yes | pkg upgrade &&
   yes | pkg install build-essential termux-api which \
-    mlocate nodejs-lts openssl lua51 \
-    luajit lua-language-server \
-    htop wget luarocks stylua marksman cmake ninja clang golang ripgrep fzf curl tmux \
-    ncurses-utils python zig zls tree-sitter tree-sitter-lua taplo \
-    fastfetch shfmt shellcheck binutils neovim
+    mlocate nodejs-lts openssl lua51 clang \
+    luajit lua-language-server marksman \
+    htop wget luarocks stylua cmake ninja golang fzf tmux \
+    ncurses-utils python zig zls taplo ripgrep \
+    fastfetch shfmt shellcheck binutils curl neovim
 
 echo "--------------"
 echo ">> dotfiles <<"
