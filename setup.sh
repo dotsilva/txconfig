@@ -7,7 +7,7 @@ pkg update
 yes | pkg upgrade &&
   yes | pkg install build-essential termux-api which \
     mlocate nodejs-lts openssl lua51 clang \
-    luajit lua-language-server marksman \
+    luajit lua-language-server marksman fd \
     htop wget luarocks stylua cmake ninja golang fzf tmux \
     ncurses-utils python zig zls taplo ripgrep \
     fastfetch shfmt shellcheck binutils curl neovim
@@ -68,7 +68,6 @@ git clone https://github.com/dotsilva/kstermux.nvim.git ~/.config/nvim/
 echo "----------------------------------------------"
 echo ">> giving permission to maintenance scripts <<"
 echo "----------------------------------------------"
-chmod +x ~/txconfig/dependencies.sh
-chmod +x ~/txconfig/dotfiles.sh
+chmod +x ~/txconfig/*.sh
 
 source .profile
