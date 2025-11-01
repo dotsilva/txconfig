@@ -18,7 +18,7 @@ echo ">> updating npm packages <<"
 echo "---------------------------"
 # Update npm packages by name
 npm update -g @fsouza/prettierd bash-language-server \
-  markdownlint-cli jsonlint stylelint
+  jsonlint stylelint
 
 echo "---------------------------"
 echo ">> updating pip packages <<"

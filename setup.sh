@@ -8,8 +8,7 @@ yes | pkg upgrade &&
   yes | pkg install build-essential termux-api which \
     mlocate nodejs-lts openssl lua51 \
     luajit lua-language-server \
-    htop wget luarocks stylua \
-    cmake ninja clang golang ripgrep fzf curl tmux \
+    htop wget luarocks stylua marksman cmake ninja clang golang ripgrep fzf curl tmux \
     ncurses-utils python zig zls tree-sitter tree-sitter-lua taplo \
     fastfetch shfmt shellcheck binutils neovim
 
@@ -43,7 +42,7 @@ echo "------------------"
 echo ">> npm packages <<"
 echo "------------------"
 npm install -g @fsouza/prettierd bash-language-server \
-  markdownlint-cli jsonlint stylelint
+  jsonlint stylelint
 
 echo "------------------"
 echo ">> pip packages <<"
