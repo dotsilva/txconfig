@@ -72,8 +72,4 @@ echo "----------------------------------------------"
 chmod +x ~/txconfig/dependencies.sh
 chmod +x ~/txconfig/dotfiles.sh
 
-echo "----------------------------------"
-echo ">> STARTING NEOVIM IN 5 SECONDS <<"
-echo "----------------------------------"
-sleep 5
-nvim
+source .profile
