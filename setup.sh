@@ -9,7 +9,7 @@ yes | pkg upgrade &&
     mlocate nodejs-lts openssl openssh lua51 clang \
     luajit lua-language-server marksman fd \
     htop wget luarocks stylua cmake ninja golang fzf tmux \
-    ncurses-utils python zig zls taplo ripgrep \
+    ncurses-utils python taplo elixir ripgrep \
     fastfetch shfmt shellcheck binutils curl neovim
 
 echo "--------------"
